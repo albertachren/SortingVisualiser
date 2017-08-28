@@ -10,7 +10,7 @@ import static com.memes.Visualiser.gui;
 
 //TODO DEBUG
 public class Main {
-    private static final long SORTING_DELAY = 5;
+    private static final long SORTING_DELAY = 10;
     public static Main main;
     public List<Integer> list = new ArrayList<>();
     Integer size;

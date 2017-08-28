@@ -51,7 +51,7 @@ public class VPanel extends JPanel {
         }
         if (pivot != 0) {
             g2d.setColor(Color.green);
-            g2d.fillRect(x + pivot * width, y, width, y + (((300 - offset * 2) / (Main.main.list.size() * 2) * Main.main.list.get(pivot))));
+            g2d.fillRect(x + pivot * width + 1, y, width , y + (((300 - offset * 2) / (Main.main.list.size() * 2) * Main.main.list.get(pivot))));
             //pivot = 0;
         }
         if (swapL != 0) {
